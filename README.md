@@ -1,30 +1,11 @@
-# ABOUT :
-    Creating a simple python program that decodes the json to xml based off the few standards. 
+# ABOUT 
+- Creating a simple python program that decodes the json to xml based off the few standards. 
 
 ## FOR CLI COMMAND 
-
 - Used sys imported function to read them as functional arguments of second and third arguments 
-
 - Run on windows powershell. A sample is as follows :
 
-- METHOD 1 
-```bash
-#for the change in dir 
-cd C:\Users\Sujitha\OneDrive\Desktop\PYTHON-XML-JSON\project
-#for the command METHOD 1 
- python .\rescript.py C:\Users\Sujitha\OneDrive\Desktop\PYTHON-XML-JSON\project\testing\sample1.json C:\Users\Sujitha\OneDrive\Desktop\PYTHON-XML-JSON\project\output\output1.xml
-```
-
-- METHOD 2
-```bash
-#for the change in dir 
-cd C:\Users\Sujitha\OneDrive\Desktop\PYTHON-XML-JSON\project
-#for the command METHOD 2 
- python .\rescript_stack.py C:\Users\Sujitha\OneDrive\Desktop\PYTHON-XML-JSON\project\testing\sample1.json C:\Users\Sujitha\OneDrive\Desktop\PYTHON-XML-JSON\project\output_stack\output_stack1.xml
-```
-
 ## FOR JSON READ 
-
 - Used a library called json which allows us to read from a json file like a strinf format 
 
 ```bash
@@ -32,7 +13,6 @@ pip install json
 ```
 
 ## FOR XML WRITING AND READING
-
 - to convert the string format to an xml format, i have utilized the library xml-python and installed the build using :
 ```bash
 pip install xml-python 
@@ -40,7 +20,6 @@ pip install xml-python
 - later we write to the file with indents using the module minidom taken from xml.dom
 
 ## FUNCTIONS METHOD 1
-
 1. readJsonFile
     takes the path as argument and returns the data in a list format 
 
@@ -69,7 +48,6 @@ pip install xml-python
     Additional functions are included to read xml files, write to xml files and adding indent to xml data before writing. 
 
 ## FUNCTIONS METHOD 2
-
 1. readJsonFile
     takes the path as argument and returns the data in a list format 
 
@@ -93,19 +71,13 @@ pip install xml-python
 
 
 ## TEST FILES USED :
+- sample1.json to sample8.json 
+- sample1.json to sample6.json taken from given test cases
 
-    sample1.json to sample8.json 
-    sample1.json to sample6.json taken from given test cases
-
-    [URL of sample7](https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files)
-    [URL of sample8](https://json.org/example.html)
+- [URL of sample7](https://support.oneskyapp.com/hc/en-us/articles/208047697-JSON-sample-files)
+- [URL of sample8](https://json.org/example.html)
 
 
 ## OUTPUT FILES 
-    - for the method 1 :
-        output1.xml to output8.xml
-        (parsed using xml-python & then pasted.)
-
-    - for the method 2 :
-        output_stack1.xml to output_stack8.xml
-        (parsed using xml-python & then pasted.)
+- for the method 1 : output1.xml to output8.xml (parsed using xml-python & then pasted.)
+- for the method 2 : output_stack1.xml to output_stack8.xml (parsed using xml-python & then pasted.)
