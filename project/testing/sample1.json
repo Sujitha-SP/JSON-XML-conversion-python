@@ -1,0 +1,13 @@
+[
+    {
+        "organization" : {
+            "name" : "securin",
+            "age" : 56
+        },
+        "security" : "Yes",
+        "array1": [1,2,3,"A"],
+        "array" : ["red",{"color": "uu"} ,[{"Apple":"Fruit"}],  -56.7, "blue", 4],
+        "value" : true,
+        "comp" : null
+    }
+]

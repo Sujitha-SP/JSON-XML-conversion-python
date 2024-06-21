@@ -1,0 +1,14 @@
+<object>
+  <object name="profile">
+    <string name="firstname">john</string>
+    <string name="lastname">Smith</string>
+    <number name="age">20</number>
+    <array name="friends">
+      <string>Joe</string>
+      <object>
+        <string name="firstname">sue</string>
+        <string name="lastname">jones</string>
+      </object>
+    </array>
+  </object>
+</object>

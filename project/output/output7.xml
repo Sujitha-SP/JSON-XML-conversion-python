@@ -1,0 +1,38 @@
+<object>
+  <object name="quiz">
+    <object name="sport">
+      <object name="q1">
+        <string name="question">Which one is correct team name in NBA?</string>
+        <array name="options">
+          <string>New York Bulls</string>
+          <string>Los Angeles Kings</string>
+          <string>Golden State Warriros</string>
+          <string>Huston Rocket</string>
+        </array>
+        <string name="answer">Huston Rocket</string>
+      </object>
+    </object>
+    <object name="maths">
+      <object name="q1">
+        <string name="question">5 + 7 = ?</string>
+        <array name="options">
+          <string>10</string>
+          <string>11</string>
+          <string>12</string>
+          <string>13</string>
+        </array>
+        <string name="answer">12</string>
+      </object>
+      <object name="q2">
+        <string name="question">12 - 8 = ?</string>
+        <array name="options">
+          <string>1</string>
+          <string>2</string>
+          <string>3</string>
+          <string>4</string>
+        </array>
+        <string name="answer">4</string>
+      </object>
+    </object>
+  </object>
+</object>

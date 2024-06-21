@@ -1,0 +1,28 @@
+<object>
+  <object name="widget">
+    <string name="debug">on</string>
+    <object name="window">
+      <string name="title">Sample Konfabulator Widget</string>
+      <string name="name">main_window</string>
+      <number name="width">500</number>
+      <number name="height">500</number>
+    </object>
+    <object name="image">
+      <string name="src">Images/Sun.png</string>
+      <string name="name">sun1</string>
+      <number name="hOffset">250</number>
+      <number name="vOffset">250</number>
+      <string name="alignment">center</string>
+    </object>
+    <object name="text">
+      <string name="data">Click Here</string>
+      <number name="size">36</number>
+      <string name="style">bold</string>
+      <string name="name">text1</string>
+      <number name="hOffset">250</number>
+      <number name="vOffset">100</number>
+      <string name="alignment">center</string>
+      <string name="onMouseUp">sun1.opacity = (sun1.opacity / 100) * 90;</string>
+    </object>
+  </object>
+</object>
